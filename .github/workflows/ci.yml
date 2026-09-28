@@ -21,6 +21,6 @@ jobs:
       - name: Validate README
         run: |
           echo "Starting CI validation..."
-          test -f CI-FAIL-TEST.txt
+          test -f README.md
           echo "README.md exists"
           echo "CI validation successful!"
