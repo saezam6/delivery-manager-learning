@@ -18,7 +18,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Validate README
+      - name: Validate Documentation
         run: |
           echo "Starting CI validation..."
           test -f README.md
